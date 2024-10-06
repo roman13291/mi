@@ -1,0 +1,26 @@
+:root{
+    --color_background: rgb(35, 46, 38);
+    --color_fon: rgb(217,239,222);
+}
+
+
+body{
+    background-color: var(--color_background);
+}
+
+.header{
+max-width: 100%;
+height: 90px;
+padding-top: 4px;
+background-color: var(--color_fon);
+border-radius: 0 0 30px 30px;
+}
+.logo{
+    display: block;
+    width: 110px;
+    height: 56px;
+    background-image: url(../img/1781611.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 8px;
+}
